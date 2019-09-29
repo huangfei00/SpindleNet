@@ -2,10 +2,10 @@ import shutil
 from argparse import ArgumentParser
 from glob import glob
 from collections import defaultdict
-
+imoort os.path as osp
 from utils import *
-
-
+args.output_dir = '/home/hf/1/'
+args.market1501_dir = '/home/hf/data_set/'
 def main(args):
   # cam_0 to cam_5
   for i in xrange(6):
